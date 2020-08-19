@@ -1,4 +1,4 @@
-package com.camargo.todolist.database.dao
+package com.camargo.todolist.api
 
 import com.camargo.todolist.model.ToDo
 import retrofit2.Call

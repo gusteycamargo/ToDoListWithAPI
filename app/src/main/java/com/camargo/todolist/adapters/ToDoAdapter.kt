@@ -1,19 +1,14 @@
 package com.camargo.todolist.adapters
 
 import android.content.Context
-import android.content.res.Resources
-import android.graphics.Color
 import android.graphics.Paint
 import android.text.Editable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import androidx.core.content.res.TypedArrayUtils
 import androidx.recyclerview.widget.RecyclerView
-import androidx.room.Room
 import com.camargo.todolist.R
-import com.camargo.todolist.database.dao.ToDoService
+import com.camargo.todolist.api.ToDoService
 import com.camargo.todolist.model.ToDo
 import kotlinx.android.synthetic.main.item.view.*
 import kotlinx.android.synthetic.main.item_edit.view.bt_save
